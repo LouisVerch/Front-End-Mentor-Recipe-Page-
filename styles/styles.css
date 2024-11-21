@@ -117,3 +117,12 @@ table {
     color: hsl(30, 10%, 34%);
     padding: 10px 0px 10px 40px
 }
+
+/* Responsive Design for mobile phones  */
+@media only screen and (max-width: 768px) {
+    main {
+            display: flex;
+            justify-content: center;
+            background-color: var(--color-stone-100);
+            padding: 128px 48px;
+        }
