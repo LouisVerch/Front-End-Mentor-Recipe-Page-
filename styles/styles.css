@@ -1,5 +1,4 @@
 body {
-    min-height: 250svh;
     background-color: hsl(30, 54%, 90%);
     display: flex;
     flex-direction: column;
@@ -124,6 +123,5 @@ table {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            background-color: var(--color-stone-100);
-            padding: 128px 48px;
+            
         }
