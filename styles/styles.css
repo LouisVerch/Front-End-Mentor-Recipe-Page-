@@ -10,13 +10,15 @@ body {
     margin: 0;
 }
 .container {
+        display :flex;
+        flex-direction: column;
         background-color: white;
         max-width: 60%;
         height: auto;
         padding: 1.5rem;
         border-radius: 20px;
-        padding: 25px;
         margin : auto;
+        overflow: auto;
 }
 .container img {
     height: 100%;
@@ -37,7 +39,7 @@ p{
 }
 .box1{
     padding: 5px;
-    width: 620px;
+    max-width: 100%;
     height: auto;
     border-radius: 15px;
     background-color: hsl(330, 100%, 98%) ;
@@ -90,7 +92,7 @@ li::marker {
     color: hsl(14, 45%, 36%);
 }
 table {
-    width: 100%;
+    max-width: 100%;
     border-collapse: collapse;
     
 }
@@ -98,7 +100,7 @@ table {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
     border-bottom: 1px solid hsl(30, 18%, 87%);
-    padding: 10px 0px 10px 200px;
+    padding: 10px 0px 10px 12.5rem;
 }
 .nutritional{
     color:hsl(30, 10%, 34%) ;
@@ -107,7 +109,7 @@ table {
 }
 .values__fat{
     color: hsl(14, 45%, 36%);
-    padding: 10px 0px 10px 200px;
+    padding: 10px 0px 10px 12.5rem;
     font-weight: bold;
     border : none
     
