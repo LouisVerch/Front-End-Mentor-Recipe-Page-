@@ -120,6 +120,6 @@ table {
 /* Responsive Design for mobile phones  */
 @media only screen and (max-width: 768px){
     body {
-        max-width : fit-content
+        max-width : 100%
         }
     }
