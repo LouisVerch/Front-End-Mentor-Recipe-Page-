@@ -122,6 +122,7 @@ table {
 @media only screen and (max-width: 768px) {
     main {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             background-color: var(--color-stone-100);
             padding: 128px 48px;
