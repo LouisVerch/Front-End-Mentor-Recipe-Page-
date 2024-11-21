@@ -118,10 +118,8 @@ table {
 }
 
 /* Responsive Design for mobile phones  */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
     body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            
+        max-width : fit-content
         }
+    }
