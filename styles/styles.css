@@ -1,4 +1,5 @@
 body {
+    min-height: 250svh;
     background-color: hsl(30, 54%, 90%);
     display: flex;
     flex-direction: column;
@@ -24,15 +25,15 @@ body {
     border-radius: 16px;
 }
 header{
-    font-family: "Young-Serif", serif;
+    font-family: "Young-Serif", "Times New Roman" , serif;
     font-weight: 400;
     font-size: 20px;
+    color: hsl(24, 5%, 18%);
     font-style: normal;
     letter-spacing: -1px;    
 }
 p{
     color: hsl(30, 10%, 34%) ;
-    margin-top: -10px;
     margin-bottom: 30px;
 }
 .box1{
@@ -46,6 +47,14 @@ h3{
     color: hsl(332, 51%, 32%);
     margin-left: 15px;
 }
+ul{
+    line-height: 25px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+    margin-top: -10px;
+    line-height: 25px;
+    color :hsl(30, 10%, 34%);
+}
 .box1 ul{
 color : hsl(24, 5%, 18%);
 border-bottom: none;
@@ -58,21 +67,14 @@ padding-bottom: 0px;
 h2{
     color: hsl(14, 45%, 36%);
     font-family: "Young-Serif",serif;
-    font-size: 25px;
-    letter-spacing: 0px;
+    font-size: 30px;
 }
 
 li {
     padding-left: 20px;
 }
 
-ul{
-    line-height: 25px;
-    border-bottom: 1px solid hsl(30, 18%, 87%);
-    padding-bottom: 20px;
-    margin-top: -10px;
-    line-height: 25px;
-}
+
 ol {
     line-height: 25px;
     border-bottom: 1px solid hsl(30, 18%, 87%) ;
@@ -80,6 +82,7 @@ ol {
 }
 ol li{
     margin-bottom: 8px;
+    color: hsl(30, 10%, 34%);
 }
 ol li::marker {
     font-weight: bold;
@@ -87,4 +90,30 @@ ol li::marker {
 li::marker {
     color: hsl(14, 45%, 36%);
 }
-;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.values{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 10px 0px 10px 200px;
+}
+.nutritional{
+    color:hsl(30, 10%, 34%) ;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding : 10px 0px 10px 40px 
+}
+.values__fat{
+    color: hsl(14, 45%, 36%);
+    padding: 10px 0px 10px 200px;
+    font-weight: bold;
+    border : none
+    
+}
+.nutritional__fat{
+    color: hsl(30, 10%, 34%);
+    padding: 10px 0px 10px 40px
+}
